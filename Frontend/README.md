@@ -1,12 +1,46 @@
-# React + Vite
+# BudgetBuddy Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React-based frontend built with Vite. It provides a user interface for tracking transactions, managing financial goals, and adjusting settings like theme toggling. 
 
-Currently, two official plugins are available:
+## Features
+- User authentication (login/signup)
+- Transaction management
+- Goal tracking and progress updates
+- Responsive navigation with sidebar and navbar
+- Integrated theming (light & dark)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+1. Make sure [Node.js](https://nodejs.org/) is installed.
+2. In the project root, install dependencies:
+   ```sh
+   npm install
+   ```
 
-## Expanding the ESLint configuration
+## Available Scripts
+- **`npm run dev`**: Runs the development server.
+- **`npm run build`**: Builds the app for production.
+- **`npm run preview`**: Previews the production build.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Environment Variables
+Create a `.env` file in the project root (if needed) and add:
+```
+REACT_APP_API_URL=http://localhost:5000
+```
+
+## File Structure
+- **`index.html`**: Entry point.
+- **`src/`**: Contains components, pages, context, and utilities.
+- **`public/`**: Static assets.
+- **`vite.config.js`**: Vite configuration.
+
+## Technologies
+- React
+- Vite
+- React Router
+- Axios
+
+## Contributing
+Feel free to open issues or submit pull requests.
+
+## License
+MIT
